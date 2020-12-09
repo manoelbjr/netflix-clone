@@ -30,6 +30,15 @@ header .logo{
   color: var(--vermelho);
   font-family: 'Arial Black', Times;
   font-size: 40px;
+
+  background: url('/resources/nflix-logo.png');
+  background-size: 150px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 100px 50px 50px;
+  margin: 5px 5px 5px 5px;
+  /* padding-bottom: 50px;
+  padding-right: 100px; */
 }
 
 header nav a{
@@ -104,4 +113,8 @@ https://cursos.alura.com.br/forum/topico-o-que-seria-a-class-wrapper-75547
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrousel{
+  margin-top: 5px;
 }
